@@ -16,4 +16,9 @@ In this problem, PA, SV, C and SC are the odd degree nodes because the number of
 <img width="477" alt="pm" src="https://cloud.githubusercontent.com/assets/18632383/26078364/4dd17a34-398d-11e7-983c-ae1d24ba8e87.png">.
 
 Now,add C-SC and SV-PA to the MST tree.
+<img width="459" alt="perfectmatching" src="https://cloud.githubusercontent.com/assets/18632383/26078999/485b9de4-398f-11e7-89f8-debcdf25e7ad.png">.
+
+The above graph represents the Eulerian Cycle which has the total cost 38.
+
+### 3. Approximation of Eulerian Cycle
 
