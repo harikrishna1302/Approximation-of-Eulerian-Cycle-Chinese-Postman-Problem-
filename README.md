@@ -8,4 +8,5 @@ Suppose we have 5 cities(Cupertino, Mountain View, Palo Alto, Santa Clara, and S
 We can verify that the triangular inequality is satisfied.
 ### 1. Run MST on the Input Graph
 Use kruskal's or prim's algorithm to find the MST for the given input graph. Then we get the following tree of cost 21.
+<img width="404" alt="mst" src="https://cloud.githubusercontent.com/assets/18632383/26077445/0c678398-398a-11e7-9358-2db83db5a08d.png">.
 
