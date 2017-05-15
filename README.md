@@ -22,4 +22,4 @@ Now,add C-SC and SV-PA to the MST tree.
 The above graph represents the Eulerian Cycle which has the total cost 38.
 
 ### 3. Approximation of Eulerian Cycle
-
+Initially find the DFS path for the cycle and → 
