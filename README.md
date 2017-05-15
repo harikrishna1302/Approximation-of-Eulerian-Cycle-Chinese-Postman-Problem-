@@ -22,4 +22,11 @@ Now,add C-SC and SV-PA to the MST tree.
 The above graph represents the Eulerian Cycle which has the total cost 38.
 
 ### 3. Approximation of Eulerian Cycle
-Initially find the DFS path for the cycle and → 
+We should have to find the Eulerian Path for the resultant cycle.
+Fleury's Algorithm : Start at any node and continue to remove edges such that the graph shouldnot be disconnected and finally reach the initial node. 
+In this problem, if we start at node C,
+C → SV → MV → PA → SV → SC → C which has cost 4 + 4 + 8 + 10 + 5 + 7 = 38.
+Now, remove the duplicate nodes except the start node C in the above path. Then, we get the following path.
+C → SV → mv → PA → SC → C which has cost 4 + 4 + 8 + 14 + 7 = 37.
+So, we can find the Eulerian Cycle with the cost 37.
+Similarly, if we repeat the above for different paths, we get different results of which has the minimum cost 36.
