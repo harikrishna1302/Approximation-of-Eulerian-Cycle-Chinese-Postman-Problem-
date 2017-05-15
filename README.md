@@ -12,4 +12,5 @@ Use kruskal's or prim's algorithm to find the MST for the given input graph. The
 ### 2. Perfect Matching
 Find the odd degree vertices for the resultant MST graph. Now, we need to connect this odd degree nodes in pairs to make them even degree.
 Then find the possible match for this odd degree nodes which has minimum cost.
-In this problem, PA, SV, C and SC are the odd degree nodes because the number of edges connected to each of them is odd. Find all the possibilities of matchings and consider the one which has minimum cost. The following diagram shows the four different possibilities of matchings and we can pick the one that has cost 17 which is minimum.
+In this problem, PA, SV, C and SC are the odd degree nodes because the number of edges connected to each of them is odd.The following diagram shows the three different possibilities of matchings and we choose C-SC, SV-PA combination which has minimum cost 17.
+<img width="477" alt="pm" src="https://cloud.githubusercontent.com/assets/18632383/26078364/4dd17a34-398d-11e7-983c-ae1d24ba8e87.png">.
